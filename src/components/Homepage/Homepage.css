@@ -1,0 +1,77 @@
+.homepage {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: -150px;
+}
+
+.homepage .video-container {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  object-fit: cover;
+  border-top: 1px solid #333333;
+}
+.text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.text h1,
+.text-2 h1{
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0px 1px 3px #333333;
+}
+.text p,
+.text-2 p{
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: -15px 0 15px 0;
+  text-shadow: 0px 1px 3px #333333;
+  margin-left: 7px;
+}
+.button{
+  width: 20vw;
+  height: 4vh;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  text-shadow: 0px 1px 3px #333333;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all 300ms ease;
+}
+.text-2{
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: right; /* dodanie wyjustowania do prawej strony */
+
+}
+.button:hover{
+  box-shadow: #ffffff2f 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.homepage .video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
