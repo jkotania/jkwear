@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jkwear/static/css/main.bdc28fff.css",
-    "main.js": "/jkwear/static/js/main.fd9b96cb.js",
-    "static/media/Video-2.mp4": "/jkwear/static/media/Video-2.0ceef8bcdec7918adf7d.mp4",
-    "static/media/Video-1.mp4": "/jkwear/static/media/Video-1.9dd81c20e2aa6a63a53e.mp4",
+    "main.js": "/jkwear/static/js/main.0fb66c4e.js",
+    "static/media/Video-1.mp4": "/jkwear/static/media/Video-1.ffede9240607d877ea85.mp4",
+    "static/media/Video-2.mp4": "/jkwear/static/media/Video-2.4c2c25f6e640458f1259.mp4",
     "index.html": "/jkwear/index.html",
     "main.bdc28fff.css.map": "/jkwear/static/css/main.bdc28fff.css.map",
-    "main.fd9b96cb.js.map": "/jkwear/static/js/main.fd9b96cb.js.map"
+    "main.0fb66c4e.js.map": "/jkwear/static/js/main.0fb66c4e.js.map"
   },
   "entrypoints": [
     "static/css/main.bdc28fff.css",
-    "static/js/main.fd9b96cb.js"
+    "static/js/main.0fb66c4e.js"
   ]
 }
