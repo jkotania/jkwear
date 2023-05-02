@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './Sidebar.css';
+import { Link } from 'react-router-dom';
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   useEffect(() => {
@@ -19,10 +20,10 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     <div className="sidebar" onClick={toggleSidebar}>
       <ul>
         <li>
-          <a href="/workinprogress">MEN</a>
+          <Link to={"/workinprogress"}>Men</Link>
         </li>
         <li>
-          <a href="/workinprogress">WOMEN</a>
+          <Link to={"/workinprogress"}>Women</Link>
         </li>
       </ul>
       <div className='sidebar-bottom'>
