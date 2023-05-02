@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jkwear/static/css/main.f67fb0d0.css",
-    "main.js": "/jkwear/static/js/main.7f4b526e.js",
-    "static/media/video.mp4": "/jkwear/static/media/video.6424568a867c855da250.mp4",
-    "static/media/fa-solid-900.ttf": "/jkwear/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
-    "static/media/fa-brands-400.ttf": "/jkwear/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
-    "static/media/fa-solid-900.woff2": "/jkwear/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
-    "static/media/fa-brands-400.woff2": "/jkwear/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
-    "static/media/fa-regular-400.ttf": "/jkwear/static/media/fa-regular-400.d87474231f4192884802.ttf",
-    "static/media/fa-regular-400.woff2": "/jkwear/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
-    "static/media/fa-v4compatibility.ttf": "/jkwear/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
-    "static/media/fa-v4compatibility.woff2": "/jkwear/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
-    "index.html": "/jkwear/index.html",
-    "main.f67fb0d0.css.map": "/jkwear/static/css/main.f67fb0d0.css.map",
-    "main.7f4b526e.js.map": "/jkwear/static/js/main.7f4b526e.js.map"
+    "main.css": "/static/css/main.23872582.css",
+    "main.js": "/static/js/main.b835df5b.js",
+    "static/media/video.mp4": "/static/media/video.6424568a867c855da250.mp4",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/index.html",
+    "main.23872582.css.map": "/static/css/main.23872582.css.map",
+    "main.b835df5b.js.map": "/static/js/main.b835df5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f67fb0d0.css",
-    "static/js/main.7f4b526e.js"
+    "static/css/main.23872582.css",
+    "static/js/main.b835df5b.js"
   ]
 }
