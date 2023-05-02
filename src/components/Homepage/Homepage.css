@@ -9,11 +9,12 @@
   position: relative;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 0;
   padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-  overflow: hidden;
-  object-fit: cover;
   border-top: 1px solid #333333;
+}
+.video-container video {
+  object-fit: cover;
 }
 .text{
   position: absolute;
@@ -75,3 +76,41 @@
   width: 100%;
   height: 100%;
 }
+
+.play-pause-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.play-pause-butt {
+  position: absolute;
+  right: 60px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.mute-btn {
+  position: absolute;
+  left: 60px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.mute-butt {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+

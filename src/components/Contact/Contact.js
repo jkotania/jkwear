@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.css';
+import Navbar from '../Navbar/Navbar';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -25,13 +26,9 @@ const Contact = () => {
   };
 
   return (
-    
+    <>
+    <Navbar />
     <section className="contact">
-<div className='icon'>
-    <Link to={'/'}>
-    <i class="fa-solid fa-arrow-left"></i>
-    </Link>
-</div>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <label>
@@ -53,6 +50,7 @@ const Contact = () => {
         <button type="submit">Send</button>
       </form>
     </section>
+    </>
   );
 };
 

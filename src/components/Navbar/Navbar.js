@@ -8,8 +8,15 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuActive, setMenuActive] = useState(false);
   const { pathname } = useLocation();
+  const [isContactActive, setIsContactActive] = useState(false);
+  useEffect(() => {
+    setIsContactActive(pathname === '/contact');
+  }, [pathname]);
+  
 
-  const cartLinkClassName = pathname === '/cart' ? 'active' : '';
+  const hoveredLinkClassName = pathname === '/cart' || pathname === '/account' ? 'active' : '';
+  const contactLinkClassName = isContactActive ? 'active' : '';
+
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
@@ -43,8 +50,8 @@ const Navbar = () => {
     setMenuActive(!menuActive);
   };
     return (
-      <nav className={`navbar ${isScrolled ? 'hovered' : ''} ${cartLinkClassName} ${pathname === '/cart' ? 'navbar--cart' : ''}`} role="banner">
-        <div className="navbar__left">
+      <nav className={`navbar ${isScrolled ? 'hovered' : ''} ${hoveredLinkClassName} ${pathname === '/cart' ? 'hovered--navbar' : ''} ${pathname === '/account' ? 'hovered--navbar' : ''} ${contactLinkClassName}`} role="banner">
+    <div className="navbar__left">
         <div className="navbar__menu" onClick={toggleSidebar}>
   {sidebarOpen ? (
     <>
@@ -69,7 +76,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar__right">
-          <Link to="/account" className={'navbar__account'} style={{ color: 'inherit'  }}>
+          <Link to="/account" className={`navbar__account ${pathname === '/account' ? 'active' : ''}`} style={{ color: 'inherit'  }}>
             <i className="fas fa-user"></i>
             <span>Account</span>
           </Link>

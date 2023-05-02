@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import './Account.css';
 import { Link } from 'react-router-dom';
+import Navbar from  '../Navbar/Navbar';
 
 const Account = () => {
   const [orders, setOrders] = useState([
@@ -42,11 +43,7 @@ const Account = () => {
 
   return (
     <>
-    <div className='icon'>
-    <Link to={'/'}>
-    <i class="fa-solid fa-arrow-left"></i>
-    </Link>
-    </div>
+    <Navbar />
     <div className="account-wrapper">
       <div className="account-box">
         <h2 className="account-box__title">Your account</h2>

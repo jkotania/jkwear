@@ -51,7 +51,7 @@
 .navbar__search i,
 .navbar__account i,
 .navbar__cart i {
-  font-size: 1rem;
+  font-size: 1.1rem;
   transition: color 0.3s ease;
   margin-right: 10px;
 }
@@ -99,7 +99,7 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.navbar--cart {
+.hovered--navbar {
   background-color: white;
   color: #333333;
 }
