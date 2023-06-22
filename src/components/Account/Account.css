@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 85vh;
     background-color: white;
+    margin: 0 0 20px 40px;
   }
   
   .account{
@@ -27,6 +28,7 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    box-sizing: border-box;
     text-align: center;
     position: relative;
   }
@@ -34,6 +36,8 @@
   .account-box__title {
     font-size: 2rem;
     margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(3, 3, 3, 0.2);
+    width: 40%;
   }
   
   .account-box__section {
@@ -58,11 +62,13 @@
   .orders-table th,
   .orders-table td {
     padding: 1rem;
-    text-align: left;
+    text-align: center;
+    border: 1px solid #333;
   }
   
   .orders-table th {
     font-weight: 700;
+    text-align: center;
   }
   
   .orders-table tbody tr:nth-child(even) {
@@ -75,17 +81,6 @@
   
   .orders-table tbody td:last-child {
     text-align: right;
-  }
-  .icon {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    font-size: 32px;
-    transition: transform 0.4s ease-in-out;
-  }
-  
-  .icon:hover {
-    transform: rotate(360deg);
   }
   .navbar.active{
   background-color: white;

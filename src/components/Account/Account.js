@@ -8,6 +8,7 @@ const Account = () => {
     { id: 256, date: '02-04-2023', amount: 299 },
     { id: 189, date: '16-03-2022', amount: 562 },
     { id: 62, date: '28-09-2021', amount: 300 },
+    { id: 31, date: '13-11-2020', amount: 1000},
   ])
       useEffect(() => {
         document.title = 'Your Account - jkwear';
