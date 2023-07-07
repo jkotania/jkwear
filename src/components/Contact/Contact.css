@@ -9,6 +9,11 @@
   margin-bottom: 30px;
 }
 
+.contact p{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
 .contact input,
 .contact textarea {
   display: block;
@@ -28,7 +33,7 @@
 
 .contact textarea {
   resize: none;
-  height: 150px;
+  height: 120px;
 }
 
 .contact button[type="submit"] {

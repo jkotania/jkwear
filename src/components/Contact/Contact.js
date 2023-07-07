@@ -29,7 +29,8 @@ const Contact = () => {
     <>
     <Navbar />
     <section className="contact">
-      <h2>Contact</h2>
+      <h2>Contact us!</h2>
+      <p>Use this contact form to send us message.</p>
       <form onSubmit={handleSubmit}>
         <label>
           Name:
