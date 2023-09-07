@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  color: white;
+  z-index: 999;
+  transition: ease-in-out 0.3s;
+  -webkit-transition: ease-in-out 0.3s;
+  font-family: 'Kumbh Sans', sans-serif;
+  user-select: none;
+}
+
+.navbar__left,
+.navbar__right {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar__left{
+  width: 200px;
+}
+.hidden{
+  display: none;
+}
+.navbar.menu-open .navbar__search {
+  display: none;
+}
+.navbar__logo h1{
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar__menu,
+.navbar__search,
+.navbar__account,
+.navbar__cart {
+  cursor: pointer;
+}
+
+.navbar__menu {
+  z-index: 2000;
+}
+
+
+.navbar__menu i,
+.navbar__search i,
+.navbar__account i,
+.navbar__cart i {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+  margin: 0 10px 0 0;
+}
+
+.navbar__menu:hover i,
+.navbar__search:hover i,
+.navbar__account:hover i,
+.navbar__cart:hover i,
+.navbar__menu:hover span,
+.navbar__search:hover span,
+.navbar__account:hover span,
+.navbar__cart:hover span {
+  color: #c19a6b;
+}
+
+.navbar:hover{
+  background-color: rgb(255, 255, 255);
+  color: #333333;
+}
+.navbar__menu:hover,
+.navbar__menu.hovered {
+  color: #333333;
+}
+
+.navbar.hovered {
+  background-color: rgb(255, 255, 255);
+  color: #333333;
+}
+
+.navbar__menu i {
+  transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+
+.navbar__menu i.active {
+  transform: rotate(90deg);
+}
+
+.navbar__menu i.active::before {
+  transform: translateY(10px) rotate(90deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar__menu i.active::after {
+  transform: translateY(-10px) rotate(90deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hovered--navbar {
+  background-color: white;
+  color: #333333;
+}
+
