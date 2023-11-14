@@ -9,7 +9,7 @@ This is a web page for a clothing store where users can browse and purchase clot
 - **Shopping Cart**: Add desired items to the shopping cart, review the cart contents, and proceed to checkout for a seamless shopping experience.
 - **User Authentication**: I'm working currently on it.
 - **Order Management**: Track order status, view past orders, and receive email notifications on order updates.
-- **Responsive Design**: The web page is fully responsive, providing an optimal browsing experience across different devices and screen sizes.
+- **Responsive Design**: The web page will be fully responsive for mobile devices.
 
 ## Technologies Used
 
