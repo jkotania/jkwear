@@ -15,7 +15,7 @@ This is a web page for a clothing store where users can browse and purchase clot
 
 - HTML5, CSS3, JavaScript: Front-end development
 - React: JavaScript library for building user interfaces
-- Node.js, Express.js: Server-side development -- Currently not supported.
+- Node.js, Express.js: Server-side development
 
 ## Getting Started
 
